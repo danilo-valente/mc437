@@ -42,5 +42,81 @@
            timeToLiveSeconds="3600">
     </cache>
 
+    <cache name="br.com.conpec.sade.domain.UserData"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.UserData.feedbacks"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.UserData.reviews"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.UserData.managings"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.UserData.askingInterviews"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.UserData.answeringInterviews"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.UserData.skills"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.UserData.developings"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.UserData.assessings"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.Interview"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.Interview.skills"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.Skill"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.Feedback"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.Project"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.Project.resources"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.Project.reviews"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.Project.developers"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.Project.assessors"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="br.com.conpec.sade.domain.ExternalResource"
+        timeToLiveSeconds="3600">
+    </cache>
+
     <!-- jhipster-needle-ehcache-add-entry -->
 </ehcache>
